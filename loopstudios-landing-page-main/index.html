@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+  
+  <title>Frontend Mentor | Loopstudios landing page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+  </style>
+</head>
+<body>
+    <!-- Header Section -->
+  
+    <header class="header" id="header">
+      <div class="side__nav" id="side-nav">
+        <div class="menu__container">
+          <div class="side__header">
+            <a href="#" class="" id="logo">
+              <img src="/images/logo.svg" alt="">
+            </a>
+            <div class="nav__close" id="nav-close">
+              <img src="/images/icon-close.svg" alt="">
+            </div>
+          </div>
+          <div class="side__navigations">
+            <ul class="items">
+              <li><a href="#about">About</a></li>
+              <li><a href="#careers">Careers</a></li>
+              <li><a href="#events">Events</a></li>
+              <li><a href="#products">Products</a></li>
+              <li><a href="#support">Support</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <nav class="nav container">
+          <a href="#" class="nav__logo">
+              <img src="/images/logo.svg" alt="">
+          </a>
+
+          <div class="nav__menu" id="nav-menu">
+              <ul class="nav__list">
+                  <li class="nav__item">
+                      <a href="#about" class="nav__link active-link">About</a>
+                  </li>
+                  <li class="nav__item">
+                      <a href="#careers" class="nav__link">Careers</a>
+                  </li>
+                  <li class="nav__item">
+                      <a href="#events" class="nav__link">Events</a>
+                  </li>
+                  <li class="nav__item">
+                      <a href="#products" class="nav__link">Products</a>
+                  </li>
+                  <li class="nav__item">
+                    <a href="#support" class="nav__link">Support</a>
+                  </li>
+              </ul>
+          </div>
+
+          <div class="drop-down_buttons">              
+              <div class="nav__toggle" id="nav-toggle">
+                <img src="/images/icon-hamburger.svg" alt="">
+              </div>
+          </div>
+      </nav>
+  </header>
+
+  <!-- Main Section -->
+
+  <section class="home section" id="home">
+    <div class="home__container grid">
+      <div class="home__content">
+        <div class="main__content">
+          <h1 class="home__title title">Immersive experiences that deliver</h1>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="about section" id="about">
+    <div class="about_container grid">
+      <div class="about_content">
+        <div class="main__content">
+          <img src="/images/mobile/image-interactive.jpg" alt="" class="about__img">
+          <div class="content__text">
+            <h1 class="about__title title">The leader in interactive VR</h1>
+            <p>Founded in 2011, Loopstudios has been producing world-class virtual reality 
+              projects for some of the best companies around the globe. Our award-winning 
+              creations have transformed businesses through digital experiences that bind 
+              to their brand.</p>
+          </div>  
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="creations section" id="creations">
+    <div class="creations_container grid">
+      <div class="creations_content">
+        <div class="main__content">
+          <div class="title__button">
+            <h1 class="creations_title title">Our Creations</h1>
+            <button type="button" class="button__two">See all</button>
+          </div>
+          <div class="creations__grid">
+            <div class="creations__card">
+              <img src="/images/mobile/image-deep-earth.jpg" alt="" id="card__bg" class="deep">
+              <h1 class="card__title title">Deep </br> Earth</h1>
+            </div>
+            <div class="creations__card">
+              <img src="/images/mobile/image-night-arcade.jpg" alt="" id="card__bg" class="night">
+              <h1 class="card__title title">Night </br> Arcade</h1>
+            </div>
+            <div class="creations__card">
+              <img src="/images/mobile/image-soccer-team.jpg" alt="" id="card__bg" class="soccer">
+              <h1 class="card__title title">Soccer </br> team vr</h1>
+            </div>
+            <div class="creations__card">
+              <img src="/images/mobile/image-grid.jpg" alt="" id="card__bg" class="the">
+              <h1 class="card__title title">The </br> Grid</h1>
+            </div>
+            <div class="creations__card">
+              <img src="/images/mobile/image-from-above.jpg" alt="" id="card__bg" class="above">
+              <h1 class="card__title title">From Up </br> Above Vr</h1>
+            </div>
+            <div class="creations__card">
+              <img src="/images/mobile/image-pocket-borealis.jpg" alt="" id="card__bg" class="pocket">
+              <h1 class="card__title title">Pocket </br> Borealis</h1>
+            </div>
+            <div class="creations__card">
+              <img src="/images/mobile/image-curiosity.jpg" alt="" id="card__bg" class="curious">
+              <h1 class="card__title title">The </br> Curiousity</h1>
+            </div>
+            <div class="creations__card">
+              <img src="/images/mobile/image-fisheye.jpg" alt="" id="card__bg" class="fisheye">
+              <h1 class="card__title title">Make It </br> Fisheye</h1>
+            </div>
+            <button type="button" class="button">See all</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer section" id="footer">
+    <div class="footer_container container grid">
+      <div class="footer__content">
+        <div class="left__side">
+          <a href="#" class="footer__logo">
+            <img src="images/logo.svg" alt="" id="footer-logo">
+          </a>
+          <ul class="footer__links">
+            <li>
+                <a href="#" class="footer__link">About</a>
+            </li>
+            <li>
+                <a href="#" class="footer__link">Careers</a>
+            </li>
+            <li>
+                <a href="#" class="footer__link">Events</a>
+            </li>
+            <li>
+                <a href="#" class="footer__link">Products</a>
+            </li>
+            <li>
+              <a href="#" class="footer__link">Support</a>
+            </li>
+          </ul>
+        </div>
+        <div class="social__links">
+          <ul class="social__css">
+            <li><a><img src="/images/icon-facebook.svg" alt=""></a></li>
+            <li><a><img src="/images/icon-twitter.svg" alt=""></a></li>
+            <li><a><img src="/images/icon-pinterest.svg" alt=""></a></li>
+            <li><a><img src="/images/icon-instagram.svg" alt=""></a></li>
+          </ul>
+          <div class="credits__loop">
+            <p>© 2021 Loopstudios. All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div class="credits">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" class="credits">Frontend Mentor</a>. 
+    Coded by <a href="#" class="credits">Ian Dominic Villamarin</a>.
+  </div>
+
+  <a href="#" class="scrollup" id="scroll-up">
+    <i class="ri-arrow-up-s-line scrollup__icon"></i>
+  </a>
+  <!-- About
+  Careers
+  Events
+  Products
+  Support
+
+  Immersive experiences that deliver
+
+  The leader in interactive VR
+
+  Founded in 2011, Loopstudios has been producing world-class virtual reality 
+  projects for some of the best companies around the globe. Our award-winning 
+  creations have transformed businesses through digital experiences that bind 
+  to their brand.
+
+  Our creations
+
+  See all
+
+  Deep earth
+  Night arcade
+  Soccer team VR
+  The grid
+  From up above VR
+  Pocket borealis
+  The curiosity
+  Make it fisheye
+
+  About
+  Careers
+  Events
+  Products
+  Support
+
+  © 2021 Loopstudios. All rights reserved. -->
+
+  
+
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="/js/main.js"></script>
+</body>
+</html>
